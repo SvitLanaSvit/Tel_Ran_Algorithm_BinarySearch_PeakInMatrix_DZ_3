@@ -156,6 +156,8 @@ public class Main {
     }
 
     //4-------------------------------------------
+    //Time Complexity: O(rows * columns)
+    //Auxiliary Space: O(1)
     static int[] findPeakIn2DMassive(int[][] matrix){
         int startCol = 0, endCol = matrix[0].length - 1;
         while(startCol <= endCol){
